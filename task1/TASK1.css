@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 150vh;
+}
+.airplane{
+    background-image: url("airplanes/1181929.jpg");
+    background-size: cover;
+    height:800px;   
+}
+.airplanes{
+    position: fixed;
+    color:black;
+    width: 100%;
+    padding: 20px;
+}
+li{
+    display: inline;
+    cursor: pointer;
+    font-size:x-large;
+    font-family:fantasy;
+    padding:20px;
+}
+li:hover{
+    color:gold;
+}
+.bgcolor{
+    transition: 2S;
+    background-color: black;
+    border-bottom: 4px solid purple;
+    color: white;
+    height:10px;
+}
+h1{
+    float: right;
+    transition: 2s;
+    font-style: italic;
+    font-size: 600%;
+    float: right;
+    padding-right: 5%;
+    color: aliceblue;
+}
+button{
+   cursor: pointer;
+   font-size: 30px;
+   background-color: gold;
+   color: black;
+   padding-bottom: 20px;
+   align-items: end;
+   font-style: italic;
+
+}
+
+   
+   
+
+
